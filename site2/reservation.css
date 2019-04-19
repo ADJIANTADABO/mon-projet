@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,600,700&subset=latin-ext';
+
+//imports ^
+
+body {
+	background: #ececec;
+	font-family: 'Lato';
+	padding: 10px 0;
+	margin: 0;
+	font-size: 14px;
+	overflow-x: hidden;
+	min-width: 345px;
+}
+* {
+	box-sizing: border-box;
+}
+
+//globals ^
+
+h1 {
+	text-align: center;
+}
+form {
+	max-width: 768px;
+	display: block;
+	background: #162E3F;
+	padding: 25px;
+	margin: 40px auto;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	color: #fff;
+}
+fieldset {
+	border: none;
+	margin: 10px auto;
+	legend {
+		margin: 40px 0 0;
+		font-size: 24px;
+		font-weight: 700;
+	}
+}
+.double-input {
+	margin: 20px auto;
+	& > div {
+		float: left;
+		width: 48%;
+		margin-bottom: 10px;
+		margin: 0 1% 10px;
+	}
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+.form-input-container {
+	label {
+		display: block;
+		margin-bottom: 10px;
+	}
+	&.date-select select {
+		width: 47%;
+		&:first-of-type {
+			margin-right: 3%;
+		}
+	}
+	select {
+		width: 100%;
+		color: white;
+		background: transparent;
+		border: 1px solid #a9a9a9;
+		padding: 8px;
+		height: 35px;
+		&:focus {
+			border: 1px solid #2db92d;
+		}
+		option {
+			color: black;
+		}
+	}
+	input {
+		width: 100%;
+		color: white;
+		padding: 8px;
+		height: 35px;
+		background: transparent;
+		border: 1px solid #a9a9a9;
+		&:focus {
+			border: 1px solid #2db92d;
+		}
+	}
+}
+button[type="submit"] {
+	height: 50px;
+	width: 300px;
+	background: #2db92d;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 50px;
+	font-family: 'Lato';
+	box-shadow: 0px 0px 10px #131313;
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+}

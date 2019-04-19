@@ -1,0 +1,131 @@
+
+/*********************/
+
+#body{
+	width: 100%;
+	margin: 0px auto;
+	max-width: 100%;
+	float: left;
+}
+
+ #bloc1{
+	width: calc(75% - 31px);
+	margin: 0px auto;
+	padding: 0px 15px;
+	float: left;
+}
+ #bloc1 #contener{
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+ #bloc1 #contener h2{
+	background: #ddd;
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	margin: 0px;
+	padding: 18px 5px;
+}
+
+#bloc1 #contener .ctn_img{
+	width: 100%;
+	height: 300px;
+	transition: .7s;
+}
+
+ #bloc1 #contener .ctn_img:hover{
+	transform: scale(1.08);
+}
+
+ #bloc1 #contener h3{
+	font-family: arial;
+	font-style: italic;
+	margin: 0px;
+	padding: 15px 25px;
+	background: rgb(54, 23, 23);
+	color: white;
+}
+
+#bloc1 #contener h3 span{
+	font-weight: normal;
+	font-style: italic;
+	float: right;
+	color: yellow;
+}
+
+#box #body #bloc1 #contener .space1{
+	float: left;
+	width: 35%;
+	position: relative;
+	padding: 12px 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+#bloc1 #contener .space1 img{
+	float: left;
+	width: 100%;
+	height: 300px;
+	transition: .9s;
+}
+ #bloc1 #contener .space1 img:hover{
+	transform: rotate(-8deg) scale(1.58);
+}
+
+#bloc1 #contener .space2{
+	float: left;
+	width: calc(65% - 36px);
+	min-height: 300px;
+	position: relative;
+	padding: 12px 18px;
+	position: relative;
+	text-align: justify;
+	overflow: hidden;
+}
+
+
+ #bloc1 #contener .video{
+	width: 100%;
+	height: 450px;
+}
+
+
+ #bloc2{
+	width: calc(25% - 17px);
+	padding: 0px 8px;
+	background: #ddd;
+	position: fixed;
+	margin-top: 12px;
+	right: 0px;
+}
+
+ #bloc2 marquee{
+	position: relative;
+	overflow: hidden;
+}
+ #bloc2 img{
+	
+	width: 305px;
+	display: inline-block;
+	height: 305px;
+}
+
+ #bloc2 label{
+	background: #888;
+	font-family: monospace;
+	font-size: 18px;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	padding: 8px 12px;
+	color: #000;
+	margin-bottom: 12px;
+	min-width: calc(100% - 24px);
+	margin-top: -4px;
+}
+

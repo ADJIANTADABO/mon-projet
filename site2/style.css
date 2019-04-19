@@ -1,0 +1,115 @@
+/* //////////////////////////////////////////////
+Plus d'informations liées à la solution  : 
+//////////////////////////////////////////////
+## Comprendre les éléments positionnés Css
+https://www.zonecss.fr/faq/les-elements-positionnes.html#WJjVbZ00000.codepen
+## Propriété Css position
+https://www.zonecss.fr/proprietes-css/position-css.html#WJjVbZ00000.codepen
+## Comprendre les sélecteurs Css
+https://www.zonecss.fr/cours-css/les-selecteurs-css.html#WJjVbZ00000.codepen
+## Propriété Css box-sizing
+https://www.zonecss.fr/proprietes-css/box-sizing-css.html#WJjVbZ00000.codepen
+## Propriété Css border-radius
+https://www.zonecss.fr/proprietes-css/border-radius-css.html#WJjVbZ00000.codepen
+*/
+/* Eléments principaux de la page */
+
+html, body {margin:0;padding:0;}
+
+body{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color:black;
+  background-color:white;
+  margin:0;
+  width: 100%;
+}
+
+section h1, footer h1, nav
+{
+  font-family: Dayrom, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* Header_Navigation */
+
+#bloc_nav /*Banderole*/
+{
+  background: url('oca.png') no-repeat 1% 10% ,url('logo.png') no-repeat right, url('ban.jpg') no-repeat 100% 85%;
+  opacity:0.95;
+  display:block;
+  text-align: center; /* le gros bloc de la bannière sera centré*/
+  position: fixed; /*tu suis la page*/
+  width:100%;
+  height: 90px; /* Obligé pour ne pas que la banderole diminue de taille si on réduit la fenetre. */
+  box-shadow: 0px 4px 20px #1c1a19; /*Effet du abndeau un peu d'ombre pour effet de profondeur*/
+  z-index: 2; /*Tu te mets pas en avant plan non mais!*/
+}
+
+ul,li{padding: 0;margin: 0;list-style-type: none;}
+ 
+nav > ul > li{
+  position: relative; 
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1.3%;
+}
+/* je représente mon bouton et son apparence non selectionne*/
+nav > ul > li > a:link,
+nav > ul > li > a:hover,
+nav > ul > li > a:active,
+nav > ul > li > a:focus,
+nav > ul > li > a {
+    color: #FFFFFF;
+    display: inline-block; /* mettre en ligne les boutons*/ 
+    opacity:0.8; /* J'ajoute 0.8 en opacité*/
+    padding: 10px 10px 10px 10px; /* je grossis la box dédié aux boutons du menu*/
+    border-radius: 10px 10px 10px 10px; /* J'arrondis les bords de la box*/
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5), /* design de la box*/
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+    background: #444; /*arriere de la box*/
+    background: linear-gradient( #555, #2C2C2C);
+    text-decoration: none;
+    z-index: 1; /*My first my last my everything*/
+}
+/* je représente mon bouton quand utilisé*/ 
+nav > ul > li > a:hover,
+nav > ul > li > a:active,
+nav > ul > li > a:focus {
+    opacity:1; /* J'ajoute 1 en opacité*/
+}
+li > ul > li > a:link,
+li > ul > li > a:hover,
+li > ul > li > a:active,
+li > ul > li > a:focus,
+li > ul > li a{
+  color:#444;
+  text-decoration: none; 
+}
+li > ul > li:hover{
+  background-color:#444;
+}
+li > ul > li:hover a{
+  color:#fff;
+}
+li > ul > li{padding:5px;}
+nav li > ul{display:none; position: absolute; background-color:#fff;border:1px solid #444;
+ box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5), /* design de la box*/
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+  
+}
+nav li:hover > ul{display:block;width:100%;}
+
+p{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+h5{
+	text-align: center;
+}
+h4{
+	text-align: center;
+}

@@ -1,0 +1,109 @@
+.logo{
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+}
+#entete{
+    color:black;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+body{
+    background: url("/home/thiam/Téléchargements/glace.jpg")no-repeat;
+    background-size: cover;
+}
+#corps{
+    height: 700px;
+    width: 100%;
+}
+#sec{
+   height: 200px;
+   width: 100%;
+}
+#sect{
+    height: 495px;
+    width: 33%;
+    background: url("/home/thiam/Téléchargements/fifi.jpg")no-repeat;
+    background-size: cover;
+ }
+ #secte{
+    height: 495px;
+    width: 33%;
+    margin-left: 432px;
+    margin-top: -490px;
+    font-size: 12px;
+ }
+ #secteu{
+    height: 495px;
+    width: 33%;
+    margin-left: 863px;
+    margin-top: -495px;
+    background: url("/home/thiam/Téléchargements/tr.jpg")no-repeat;
+    background-size: cover;
+ }
+ .ima{
+    width: 100%;
+    height: 300px;
+ }
+ p{
+     font-size: 18px;
+     color:black;
+ 
+ }
+ .train{
+    width: 400px;
+    height: 500px;
+}
+.gym{
+    width: 400px;
+    height: 500px;
+}
+.fit{
+    width: 400px;
+    height: 500px;
+}
+#flux{
+    /*border: 2px solid red;*/
+    width: 300px;
+    height: 200px;
+    color:black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+#parte{
+    /*border: 2px solid black;*/
+    width: 300px;
+    height: 200px;
+    margin-left: 305px;
+    margin-top: -227px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+#new{
+    /*border: 2px solid black;*/
+    width: 300px;
+    height: 200px;
+    margin-left: 609px;
+    margin-top: -230px;
+    color:black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+#rs{
+    /*border: 2px solid blue;*/
+    width: 300px;
+    height: 200px;
+    margin-left: 913px;
+    margin-top: -227px;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
